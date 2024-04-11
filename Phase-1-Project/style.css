@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #383737;
+}
+div {
+    background-color: #32f3bfc9;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto; /* Move the navigation bar to the right */
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+
+
+#title h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;   
+}
+#about{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#rowa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    padding: 2vw;
+}
+
+#five{
+    width: 45%;
+}
+#five img{
+   height: 40vw;
+   border-radius: 50px;
+
+}
+
+#seven{
+    font-family: 'Nunito', sans-serif;
+    width: 45%; 
+    padding-left: 2vw;
+    border: 2px solid #FF9F29;
+}
+.random{
+    text-align: center;
+    padding-bottom: 3vw;
+}
+#get_cocktail{
+    border-radius: 4vw;
+    padding: 1vw;
+    border: none;
+    padding:1vw 2vw 1vw 2vw;
+
+}
+#get_cocktail:hover{
+    background-color: #03fb66;
+    color: #f08903;
+    
+}
+
+#likeContainer {
+    display: flex;
+    align-items: center;
+}
+
+#likeButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#inputLike {
+    border: 2px solid #3498db;
+    padding: 8px;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for the contact form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+h2{
+    text-align: center;
+}
